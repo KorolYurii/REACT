@@ -384,6 +384,19 @@ body {
     font-size: 12px;
   }
 }
+@media screen and (max-width: 1180px) {
+  .aside {
+    max-width: 260px;
+  }
+
+  .column_name .column_name__item {
+    font-size: 11px;
+  }
+
+  .row_list__item {
+    font-size: 11px;
+  }
+}
 @media screen and (max-width: 1100px) {
   .column_name .column_name__item {
     font-size: 10px;
