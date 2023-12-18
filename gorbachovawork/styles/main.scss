@@ -207,6 +207,9 @@ body{
 }
 .main_header{
     margin-bottom: 51px;
+    color: #000;
+    font-size: 24px;
+    font-weight: 500;
 }
 .main_content{
     border-radius: 8px;
@@ -247,16 +250,18 @@ body{
         max-height: 38px;
         border-radius: 10px;
         background: #F9FBFF;
+        display: flex;
         .search_button{
             
         }
         .search{
             vertical-align: super;
-            margin-left: 3px;
+            margin-left: 8px;
             &::placeholder{
                 color: #B5B7C0;
                 font-size: 12px;
                 letter-spacing: -0.12px;
+                text-transform: capitalize;
             }
             
         }

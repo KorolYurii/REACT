@@ -169,6 +169,9 @@ body {
 
 .main_header {
   margin-bottom: 51px;
+  color: #000;
+  font-size: 24px;
+  font-weight: 500;
 }
 
 .main_content {
@@ -212,15 +215,17 @@ body {
   max-height: 38px;
   border-radius: 10px;
   background: #F9FBFF;
+  display: flex;
 }
 .main_conent__header .form_search .search {
   vertical-align: super;
-  margin-left: 3px;
+  margin-left: 8px;
 }
 .main_conent__header .form_search .search::placeholder {
   color: #B5B7C0;
   font-size: 12px;
   letter-spacing: -0.12px;
+  text-transform: capitalize;
 }
 
 .table {
